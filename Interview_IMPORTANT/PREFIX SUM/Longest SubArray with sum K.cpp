@@ -2,6 +2,8 @@
 
                                 //    Longest Sub-Array with Sum K
 
+#include <bits/stdc++.h>
+using namespace std;
 class Solution{
     public:
     int lenOfLongSubarr(int A[],  int N, int K) 
