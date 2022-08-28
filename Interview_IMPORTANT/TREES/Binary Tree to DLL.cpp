@@ -1,7 +1,9 @@
 // Link : https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1
                                     //    Binary Tree to DLL
 
-/* Structure for tree and linked list
+#include <bits/stdc++.h>
+using namespace std;
+// Structure for tree and linked list
 struct Node
 {
     int data;
@@ -13,7 +15,7 @@ struct Node
         left = right = NULL;
     }
 };
- */
+ 
 // This function should return head to the DLL
 class Solution
 {
@@ -49,6 +51,7 @@ class Solution
         return head;
     }
 };
+
 
 /*                      2 nd method
 class Solution {
