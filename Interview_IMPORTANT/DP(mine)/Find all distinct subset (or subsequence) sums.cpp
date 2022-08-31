@@ -1,5 +1,7 @@
 // Link : https://practice.geeksforgeeks.org/problems/find-all-distinct-subset-or-subsequence-sums4424/1
 
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     void solve(int ind, int sum, vector<int>& nums, set<int>& s, vector<vector<bool>>& dp) {
